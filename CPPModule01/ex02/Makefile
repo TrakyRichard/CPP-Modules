@@ -1,6 +1,6 @@
-NAME = megaphone
+NAME = account
 
-SRCS = $(shell find . -name *.cpp)
+SRCS = $(shell find . -name "*.cpp")
 
 CC = g++
 CFLAGS = -Wall -Werror -Wextra
